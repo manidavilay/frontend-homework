@@ -1,3 +1,28 @@
+# frontend-homework
+
+## Project setup
+```
+npm install
+```
+
+### Compiles and hot-reloads for development
+```
+npm run serve
+```
+
+### Compiles and minifies for production
+```
+npm run build
+```
+
+### Lints and fixes files
+```
+npm run lint
+```
+
+### Customize configuration
+See [Configuration Reference](https://cli.vuejs.org/config/).
+
 # Secret Sauce Size Calculator
 
 Calculate your size with ease!
@@ -83,7 +108,6 @@ var promise = fetch('https://size-calculator-api.sspinc.io/brands', {
         'Authorization': 'Basic ' + btoa(`${username}:${apiKey}`)
     }
 })
-
 promise
     .then((response) => response.json())
     .then((data) => console.log(data))

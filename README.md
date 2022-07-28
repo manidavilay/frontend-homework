@@ -50,7 +50,7 @@ some use alpha labels (XS, S, M, L, XL).
 
 An example size chart looks like the following:
 
-![DVF size chart](images/dvf-dresses.png)
+![DVF size chart](src/assets/images/dvf-dresses.png)
 
 The above size chart describes sizes for Diane von Furstenberg dresses.
 There are multiple body measurements but a single dominant measurement can
@@ -64,9 +64,9 @@ Create an application that allows users to calculate their sizes.
 
 The application should look exactly like the following:
 
-Main screen: ![main screen](images/screenshot.jpg)
+Main screen: ![main screen](src/assets/images/screenshot.jpg)
 
-Suggested size screen: ![finish screen](images/screenshot2.jpg)
+Suggested size screen: ![finish screen](src/assets/images/screenshot2.jpg)
 
 Additionally you can find the same design on
 [Figma](https://www.figma.com/file/0mvO5viOpngFpdnCKs569l/homework-design).

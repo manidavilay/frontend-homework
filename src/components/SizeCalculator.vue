@@ -2,6 +2,8 @@
   <base-card>
     <section v-if="isCalculating" class="calculator">
       <div class="selects">
+
+        <!-- Brands select -->
         <select
           class="selects__input select-text"
           v-model="selectedBrandId"
@@ -13,6 +15,8 @@
             {{ brand.name }}
           </option>
         </select>
+
+        <!-- Categories select depending on the brand -->
         <select
           class="selects__input select-text"
           v-model="selectedCategoryId"
@@ -29,6 +33,8 @@
           </option>
         </select>
       </div>
+
+      <!-- Size input -->
       <div class="size text">
         <p>
           My size is
@@ -42,11 +48,17 @@
           inches.
         </p>
       </div>
+
+      <!-- Error message if all fields are not filled -->
       <p v-if="formError" class="error-message">
         Please fill out the fields above
       </p>
+
+      <!-- Submit button to calculate size -->
       <base-button @click="checkForm()" class="button-text"> CALCULATE </base-button>
     </section>
+
+    <!-- Displayed message if no size is found -->
     <section v-else class="results text">
       <p v-if="noMatch" class="error-message">Sorry, no matching size found</p>
       <div v-else class="results__sizes">
@@ -61,6 +73,8 @@
           </div>
         </div>
       </div>
+
+      <!-- Reset form and recalculate -->
       <base-button @click="recalculate()" class="button-text"> OK </base-button>
     </section>
   </base-card>

@@ -1,0 +1,21 @@
+/* -------------------------------- */
+/*              MIXINS              *
+/* -------------------------------- */
+
+/* ------------ POSITIONS ------------ */
+
+@mixin flex-center() {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@mixin justify-center() {
+    display: flex;
+    justify-content: center;
+}
+
+@mixin align-center() {
+    display: flex;
+    align-items: center;
+}

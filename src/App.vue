@@ -12,3 +12,13 @@ export default {
   }
 }
 </script>
+
+<style lang="scss">
+@import './styles/app.scss';
+
+#app {
+  @include flex-center();
+  width: 100%;
+  height: 100vh;
+}
+</style>

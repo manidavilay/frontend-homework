@@ -1,0 +1,49 @@
+/* -------------------------------- */
+/*            TYPOGRAPHY            *
+/* -------------------------------- */
+
+.text {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color: $color-dark-grey;
+}
+
+.select-text {
+    font-family: 'Manrope', sans-serif;
+    font-style: normal;
+    font-weight: 100;
+    font-size: 12px;
+    line-height: 16px;
+    color: $color-light-grey;
+}
+
+.button-text {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 18px;
+    letter-spacing: 0.05em;
+    color: $color-dark-grey;
+}
+
+.result {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 48px;
+    color: $color-dark-grey;
+}
+
+.error-message {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color: $color-red;
+}
